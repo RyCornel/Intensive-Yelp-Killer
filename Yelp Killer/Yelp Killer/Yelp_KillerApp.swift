@@ -15,6 +15,8 @@ struct Yelp_KillerApp: App {
         WindowGroup {
             ContentView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            MapView()
+                .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
         }
     }
 }
@@ -30,7 +32,9 @@ struct Yelp_KillerApp_Previews: PreviewProvider {
             .background(Color.orange)
             .padding()
             .background(Color.blue)
-            .position(x: 185, y: 175)
+            .position(x: 190, y: 300)
             
     }
 }
+
+

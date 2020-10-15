@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		709BAFF8253805FA005B44C2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709BAFF7253805FA005B44C2 /* MapView.swift */; };
 		70E72AE72537FFFD00B677E9 /* Yelp_KillerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E72AE62537FFFD00B677E9 /* Yelp_KillerApp.swift */; };
 		70E72AE92537FFFD00B677E9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70E72AE82537FFFD00B677E9 /* ContentView.swift */; };
 		70E72AEB2537FFFE00B677E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70E72AEA2537FFFE00B677E9 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		709BAFF7253805FA005B44C2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		70E72AE32537FFFD00B677E9 /* Yelp Killer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yelp Killer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70E72AE62537FFFD00B677E9 /* Yelp_KillerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yelp_KillerApp.swift; sourceTree = "<group>"; };
 		70E72AE82537FFFD00B677E9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				70E72AE62537FFFD00B677E9 /* Yelp_KillerApp.swift */,
+				709BAFF7253805FA005B44C2 /* MapView.swift */,
 				70E72AE82537FFFD00B677E9 /* ContentView.swift */,
 				70E72AEA2537FFFE00B677E9 /* Assets.xcassets */,
 				70E72AEF2537FFFE00B677E9 /* Persistence.swift */,
@@ -267,6 +270,7 @@
 			files = (
 				70E72AF32537FFFE00B677E9 /* Yelp_Killer.xcdatamodeld in Sources */,
 				70E72AF02537FFFE00B677E9 /* Persistence.swift in Sources */,
+				709BAFF8253805FA005B44C2 /* MapView.swift in Sources */,
 				70E72AE92537FFFD00B677E9 /* ContentView.swift in Sources */,
 				70E72AE72537FFFD00B677E9 /* Yelp_KillerApp.swift in Sources */,
 			);
