@@ -21,6 +21,16 @@ struct Yelp_KillerApp: App {
 
 struct Yelp_KillerApp_Previews: PreviewProvider {
     static var previews: some View {
-        /*@START_MENU_TOKEN@*/Text("Hello, World!")/*@END_MENU_TOKEN@*/
+        Text("Yelp Killer")
+            .font(.title)
+            .fontWeight(.heavy)
+            .multilineTextAlignment(.center)
+            .foregroundColor(Color.blue)
+            .padding()
+            .background(Color.orange)
+            .padding()
+            .background(Color.blue)
+            .position(x: 185, y: 175)
+            
     }
 }
